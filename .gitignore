@@ -1,2 +1,13 @@
-BlockAlertsDemo.xcodeproj/project.xcworkspace
-BlockAlertsDemo.xcodeproj/xcuserdata
+.DS_Store
+*.swp
+*~.nib
+.idea
+build/
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.xcuserstate
+*.xcbkptlist

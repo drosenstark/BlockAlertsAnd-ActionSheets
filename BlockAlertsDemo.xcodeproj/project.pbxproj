@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C3A571015CAAF1D005C707C /* RetentionCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A570F15CAAF1D005C707C /* RetentionCenter.m */; };
 		EC90169F14BB629F00EF52E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90169E14BB629F00EF52E1 /* UIKit.framework */; };
 		EC9016A114BB629F00EF52E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9016A014BB629F00EF52E1 /* Foundation.framework */; };
 		EC9016A314BB629F00EF52E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9016A214BB629F00EF52E1 /* CoreGraphics.framework */; };
@@ -50,6 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C3A570E15CAAF1D005C707C /* RetentionCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetentionCenter.h; sourceTree = "<group>"; };
+		5C3A570F15CAAF1D005C707C /* RetentionCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetentionCenter.m; sourceTree = "<group>"; };
 		EC90169A14BB629F00EF52E1 /* BlockAlertsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockAlertsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC90169E14BB629F00EF52E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC9016A014BB629F00EF52E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -240,6 +243,8 @@
 				ECFC5EFB14EB1DA4004BFD45 /* BlockBackground.m */,
 				ECFC5EFC14EB1DA4004BFD45 /* BlockTextPromptAlertView.h */,
 				ECFC5EFD14EB1DA4004BFD45 /* BlockTextPromptAlertView.m */,
+				5C3A570E15CAAF1D005C707C /* RetentionCenter.h */,
+				5C3A570F15CAAF1D005C707C /* RetentionCenter.m */,
 			);
 			path = ToAddToYourProjects;
 			sourceTree = "<group>";
@@ -342,6 +347,7 @@
 				ECFC5EFF14EB1DA4004BFD45 /* BlockAlertView.m in Sources */,
 				ECFC5F0014EB1DA4004BFD45 /* BlockBackground.m in Sources */,
 				ECFC5F0114EB1DA4004BFD45 /* BlockTextPromptAlertView.m in Sources */,
+				5C3A571015CAAF1D005C707C /* RetentionCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +419,7 @@
 		EC9016B914BB629F00EF52E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockAlertsDemo/BlockAlertsDemo-Prefix.pch";
 				INFOPLIST_FILE = "BlockAlertsDemo/BlockAlertsDemo-Info.plist";
@@ -426,6 +433,7 @@
 		EC9016BA14BB629F00EF52E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockAlertsDemo/BlockAlertsDemo-Prefix.pch";
 				INFOPLIST_FILE = "BlockAlertsDemo/BlockAlertsDemo-Info.plist";
